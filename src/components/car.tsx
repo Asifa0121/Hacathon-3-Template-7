@@ -6,12 +6,13 @@ import Link from "next/link";
 
 
 
+
 export default function Car(){
     return(
         <div >
-            <div className="flex gap-4 top-8  justify-center"> 
+            <div className="flex gap-4 top-8  justify-center md: flex-wrap  "> 
                 {/* car */}
-            <div className="car  w-[640px] h-[370px] ">
+            <div className="car  w-[640px] h-[370px]   ">
                 <div className="w-[284px] h-[160px] ">
                 <h3 className="w-[272px] h-[96px] text-white text-[32px] font-sans font-bold">The Best Platform for Car Rental</h3>
                 <p className="text-white text-[Plus Jakarta Sans]text-[16px] mt-4 mb-4">Ease of doing a car rental safely and reliably. Of course at a low price.</p>
@@ -34,8 +35,7 @@ export default function Car(){
                 <Image src={car1} alt="car" className="h-[220px] w-[406px]"/></div>
             </div>
             </div>
-
-         
+       
     
         {/* Booking Section */}
         <div className="flex flex-col md:flex-row items-center gap-4 mt-8 bg-white p-6 rounded-lg shadow-md">
@@ -93,16 +93,6 @@ export default function Car(){
       </div>
     
   )
-
-
-
-
-
-
-          
-
-
-
         
        
     

@@ -1,15 +1,19 @@
 import Car from "@/components/car";
-import PopularCar from "@/components/PopularCar";
-import RecommendedCar from "@/components/RecommendedCar";
+import Card from "@/components/cardMenu";
+import RecCar from "@/components/recomCar";
+
+
 
 
 
 export default function Home(){
   return(
     <div>
+      <br/><br/>
       <Car/>
-      <PopularCar/>
-      <RecommendedCar/>
+      <Card/>
+      <RecCar/>
+    
       
     </div>
   )
