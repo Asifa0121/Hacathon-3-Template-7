@@ -9,7 +9,7 @@ import profile from '@/components/Images/profile.png';
     
 export default function NavBar(){
   return(
-    <div className="w-full md:flex-row items-center justify-between p-4 ">
+    <div className="w-full overflow-hidden md:flex-row items-center justify-between p-4  ">
     <div className="flex flex-col md:flex-row  gap-4 md:gap-6 bg-white border w-full h-[124px] justify-between items-center px-4 md:px-8">
       {/* Logo */}
       <div className="title text-lg font-semibold w-[148px] h-[44px]">

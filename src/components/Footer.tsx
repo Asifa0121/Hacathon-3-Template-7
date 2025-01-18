@@ -2,14 +2,12 @@
    import React from "react";
 export const Footer = () => {
     return (
-
-
-    <footer className="bg-white border-t border-gray-200 ">
+          <footer className="bg-white justify-center items-center border-t b overflow-hidden border-gray-200 ">
       <div>
         {/* Top Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4">
+        <div className="grid grid-cols-1 p-4 justify-items-center sm:grid-cols-2  lg:grid-cols-4">
           {/* Logo and Vision */}
-          <div className="pl-8 ml-8 mr-10 gap-[16px]">
+          <div className="pl-8 ml-8 mr-10 gap-[16px] items-center">
             <h1 className="text-2xl font-bold text-blue-500">MORENT</h1>
             <p className="text-sm text-gray-600 mt-2">
               Our vision is to provide convenience and help increase your sales business.
@@ -17,9 +15,9 @@ export const Footer = () => {
           </div>
 
           {/* About Section */}
-          <div className="w-[152px] h-[244px] top-[80px] left-[804px]">
+          <div className="w-[152px] h-[244px]  top-[80px] left-[804px] justify-center items-center">
             <h2 className="text-lg font-semibold text-black">About</h2>
-            <ul className="mt-2">
+            <ul className="mt-2 justify-center items-center">
               <li>
               
                   How it works
@@ -44,7 +42,7 @@ export const Footer = () => {
           </div>
 
           {/* Community Section */}
-          <div className="w-[152px] h-[244px] top-[80px] left-[1016px]">
+          <div className="w-[152px] h-[244px] top-[80px] left-[1016px] items-center">
             <h2 className="text-lg font-semibold text-black">Community</h2>
             <ul className="mt-2 space-y-1">
               <li>

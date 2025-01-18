@@ -10,9 +10,9 @@ import Link from "next/link";
 export default function Car(){
     return(
         <div >
-            <div className="flex gap-4 top-8  justify-center md: flex-wrap  "> 
+            <div className="flex gap-3 top-8  items-center justify-center overflow-hidden sm:flex-wrap  md: flex-wrap lg:flex  "> 
                 {/* car */}
-            <div className="car  w-[640px] h-[370px]   ">
+            <div className="car  w-[590px] h-[370px] justify-center ml-3 ">
                 <div className="w-[284px] h-[160px] ">
                 <h3 className="w-[272px] h-[96px] text-white text-[32px] font-sans font-bold">The Best Platform for Car Rental</h3>
                 <p className="text-white text-[Plus Jakarta Sans]text-[16px] mt-4 mb-4">Ease of doing a car rental safely and reliably. Of course at a low price.</p>
@@ -24,7 +24,7 @@ export default function Car(){
             </div>
 
 {/* car1 */}
-            <div className="car1  w-[640px] h-[370px] ">
+            <div className="car1  w-[590px] h-[370px] ">
                 <div className="w-[284px] h-[160px] ">
                 <h3 className="w-[272px] h-[96px] text-white text-[32px] font-sans font-bold">Easy way to rent a car at a low price</h3>
                 <p className="text-white text-[Plus Jakarta Sans]text-[16px] mt-4 mb-4">Providing cheap car rental services and safe and comfortable facilities.</p>

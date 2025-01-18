@@ -11,8 +11,8 @@ export default function Home(){
     <div>
       <br/><br/>
       <Car/>
-      <Card/>
-      <RecCar/>
+      <Card/> 
+     <RecCar/>
     
       
     </div>
